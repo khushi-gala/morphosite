@@ -196,11 +196,16 @@ export const updateAgencyDetails = async (
   agencyId: string,
   agencyDetails: Partial<Agency>
 ) => {
-  const response = await db.agency.update({
-    where: { id: agencyId },
-    data: { ...agencyDetails },
-  })
-  return response
+  try {
+    const response = await db.agency.update({
+      where: { id: agencyId },
+      data: { ...agencyDetails },
+    })
+    return response
+  } catch (error) {
+    console.error('Error updating agency details:', error)
+    throw new Error('Failed to update agency details')
+  }
 }
 
 export const deleteAgency = async (agencyId: string) => {
@@ -475,7 +480,7 @@ export const sendInvitation = async (
   email: string,
   agencyId: string
 ) => {
-  const resposne = await db.invitation.create({
+  const response = await db.invitation.create({
     data: { email, agencyId, role },
   })
 
@@ -493,7 +498,7 @@ export const sendInvitation = async (
     throw error
   }
 
-  return resposne
+  return response
 }
 
 export const getMedia = async (subaccountId: string) => {

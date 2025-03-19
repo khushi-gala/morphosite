@@ -130,9 +130,9 @@ const SubAccountDetails: React.FC<SubAccountDetailsProps> = ({
   }, [details])
 
   const isLoading = form.formState.isSubmitting
-  //CHALLENGE Create this form.
+
   return (
-    <Card className="w-full">
+    <Card className="w-full h-screen">
       <CardHeader>
         <CardTitle>Sub Account Information</CardTitle>
         <CardDescription>Please enter business details</CardDescription>
@@ -186,7 +186,7 @@ const SubAccountDetails: React.FC<SubAccountDetailsProps> = ({
                 name="companyEmail"
                 render={({ field }) => (
                   <FormItem className="flex-1">
-                    <FormLabel>Acount Email</FormLabel>
+                    <FormLabel>Account Email</FormLabel>
                     <FormControl>
                       <Input
                         placeholder="Email"

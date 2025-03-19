@@ -32,8 +32,8 @@ const SubscriptionForm = ({ selectedPriceId }: Props) => {
         },
       })
       if (error) {
-        throw new Error()
-      }
+        console.error("Stripe Error:", error.message, error);
+      }      
       toast({
         title: 'Payment successfull',
         description: 'Your payment has been successfully processed. ',

@@ -371,7 +371,7 @@ type EditorProps = {
   pageDetails: FunnelPage
 }
 
-const EditorProvider = (props: EditorProps) => {
+export const EditorProvider = (props: EditorProps) => {
   const [state, dispatch] = useReducer(editorReducer, initialState)
 
   return (
@@ -388,13 +388,17 @@ const EditorProvider = (props: EditorProps) => {
     </EditorContext.Provider>
   )
 }
-
+console.log(2)
 export const useEditor = () => {
   const context = useContext(EditorContext)
+  console.log(1)
+  console.log("EditorContext:", context); // 🔍 Debugging log
   if (!context) {
     throw new Error('useEditor Hook must be used within the editor Provider')
   }
   return context
 }
+console.log(3)
+console.log('useEditor:', useEditor);
 
 export default EditorProvider

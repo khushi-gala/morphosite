@@ -40,25 +40,25 @@ export const pricingCards = [
   {
     title: 'Unlimited Saas',
     description: 'The ultimate agency kit',
-    price: '$199',
+    price: '₹499',
     duration: 'month',
     highlight: 'Key features',
     features: ['Rebilling', '24/7 Support team'],
-    priceId: 'price_1OYxkqFj9oKEERu1KfJGWxgN',
+    priceId: 'price_1QvvezHVLBLjA92Ni4FLfVBH',
   },
   {
     title: 'Basic',
     description: 'For serious agency owners',
-    price: '$49',
+    price: '₹199',
     duration: 'month',
     highlight: 'Everything in Starter, plus',
     features: ['Unlimited Sub accounts', 'Unlimited Team members'],
-    priceId: 'price_1OYxkqFj9oKEERu1NbKUxXxN',
+    priceId: 'price_1QvvezHVLBLjA92N2VJe4BiB',
   },
 ]
 
 export const addOnProducts = [
-  { title: 'Priority Support', id: 'prod_PNjJAE2EpP16pn' },
+  { title: 'Priority Support', id: 'prod_Rpb11S4yo1G35x' },
 ]
 
 export const icons = [
@@ -221,7 +221,7 @@ export type EditorBtns =
   | '__body'
   | 'image'
   | null
-  | '3Col'
+  | '3Col' 
 
 export const defaultStyles: React.CSSProperties = {
   backgroundPosition: 'center',

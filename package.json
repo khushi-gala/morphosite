@@ -1,5 +1,5 @@
 {
-  "name": "plura",
+  "name": "morphosite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -65,10 +65,10 @@
     "recharts": "^2.13.0",
     "shadcn-ui": "^0.9.2",
     "sonner": "^1.5.0",
-    "stripe": "^17.5.0",
+    "stripe": "^17.6.0",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7",
-    "uploadthing": "^7.1.0",
+    "uploadthing": "^7.5.2",
     "uuid": "^11.0.3",
     "vaul": "^1.0.0",
     "zod": "^3.23.8"

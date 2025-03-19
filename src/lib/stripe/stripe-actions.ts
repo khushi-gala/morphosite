@@ -27,10 +27,11 @@ export const subscriptionCreated = async (
       currentPeriodEndDate: new Date(subscription.current_period_end * 1000),
       //@ts-ignore
       priceId: subscription.plan.id,
-      subscritiptionId: subscription.id,
+      subscriptionId: subscription.id, // Corrected from 'subscritiptionId'
       //@ts-ignore
       plan: subscription.plan.id,
     }
+    
 
     const res = await db.subscription.upsert({
       where: {
