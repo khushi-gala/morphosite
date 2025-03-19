@@ -7,8 +7,49 @@ SaaS Website Builder, Project Management And Dashboard With Stripe using Nextjs1
 Managing a multivendor B2B2B SaaS platform is challenging due to complex agency management, payment processing, and lack of real-time tracking. Morphosite simplifies operations with role-based access, funnel building, subscription management, and performance analytics, making it easier to scale and manage businesses.
 
 ## Screenshots
+### 1. Landing Page: ###
+<img src="public/images/landingPage.png" width=100%>
+<img src="public/images/plans.png" width=100%>
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### 2. Agency Dashboard: ###
+<img src="public/images/agencyDashboard.png" width=100%>
+
+### 3. Agency Launchpad: ###
+<img src="public/images/agencyLaunchpad.png" width=100%>
+
+### 4. Agency Settings: ###
+<img src="public/images/agencySettings.png" width=100%>
+
+### 5. Agency Subaccounts: ###
+<img src="public/images/agencySubaccounts.png" width=100%>
+
+### 6. Subaccount Dashboard: ###
+<img src="public/images/subaccountDashboard.png" width=100%>
+
+### 7. Add Images: ###
+<img src="public/images/uploadMedia.png" width=100%>
+
+### 8. Khanban Board for Subaccounts: ###
+<img src="public/images/khanbanBoard.png" width=100%>
+
+### 9. Raise Tickets in Pipelines: ###
+<img src="public/images/ticket.png" height=600px>
+
+### 10. Create Funnels: ###
+<img src="public/images/funnel.png" width=100%>
+
+### 11. Light Mode: ###
+<img src="public/images/lightMode.png" width=100%>
+
+### 12. Drag and Drop Website Builder: ###
+<img src="public/images/websiteBuilder.png" width=100%>
+
+### 13. Access Uploaded Images in Website Builder: ###
+<img src="public/images/accessImages.png" width=100%>
+
+### 14. Sample Website: ###
+<img src="public/images/sample1.png" width=100%>
+<img src="public/images/sample2.png" width=100%>
 
 ## 🚀Features in this application
 - 🤯 Multivendor B2B2B Saas
